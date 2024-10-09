@@ -1,0 +1,33 @@
+/* styles.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #2c2143, #673aab); /* 背景渐变色 */
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 48px;
+    font-weight: bold;
+    color: #ff00ff; /* 亮紫色 */
+}
